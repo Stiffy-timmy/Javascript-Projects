@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;  
+    /* To vertically align the text you can do line-height = height */
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: #081b31;
+    cursor: pointer;
+}
+
+img{
+    height: 185px;
+    width: 185px;
+    object-fit: cover;
+    /* Works just like background-size, it's just that we used images in the html doc instead of the css file  */
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 2em;  
+}
+
+.score-board{
+    transform: scale(1.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+   
+}
+
+.msg-container{
+    transform: scale(1.5);
+    margin-top: 2.8rem;
+    background-color: #081b31;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+
+#user-score, #comp-score{
+    font-size: 25px;
+}
+
+.reset-para{
+    background-color: #081b31;
+    display: inline-block;
+    color: white;
+    padding: 0.7rem;
+    margin-top: 2rem;
+    font-size: 24px;
+    border-radius: 1rem;
+}
